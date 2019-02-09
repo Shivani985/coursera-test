@@ -1,6 +1,6 @@
 *{
 	box-sizing: border-box;
-	font-family: calibri;
+	font-family: calibiri;
 }
 
 
@@ -20,7 +20,7 @@ p{
 	padding: 8px;
 	margin: 10px;
 	padding-top: 30px;
-	height: 160px;
+	height: 180px;
 	font-size: 16px;
 }
 
@@ -80,7 +80,7 @@ width: 33.33%;
 }
 
 
-@media((min-width: 768px) and (max-width: 991px))
+@media(min-width: 768px) and (max-width: 991px)
 {
 .col-sm-6
 {
@@ -99,7 +99,7 @@ width: 33.33%;
 {
 .col-xs-12
 {
-	float:left;
+	float: left;
 	width: 100%;
 }
 }
