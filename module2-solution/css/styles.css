@@ -1,14 +1,106 @@
+*{
+	box-sizing: border-box;
+	font-family: calibri;
+}
+
+
 h1{
 	text-align: center;
+	color: black;
+}
+
+.section
+{
+	position: relative;
+}
+
+p{
+	background-color: gray;
+	border: 1px solid black;
+	padding: 8px;
+	margin: 10px;
+	padding-top: 30px;
+	height: 160px;
+	font-size: 16px;
+}
+
+#chicken
+{
+	border: 1px solid black;
+	position: absolute;
+	background-color: red;
+	right: 0px;
+	top: -10px;
+	text-align: center;
+	padding: 2px;
+	margin: 10px;
+	width: 100px;
+	font-size: 20px;
+
+}
+
+#paneer
+{
+	border: 1px solid black;
+	position: absolute;
+	background-color: blue;
+	right: 0px;
+	top: -10px;
+	text-align: center;
+	padding: 2px;
+	margin: 10px;
+	width: 100px;
+	font-size: 20px;	
+}
+
+
+#kheer
+{
+	border: 1px solid black;
+	position: absolute;
+	background-color: green;
+	right: 0px;
+	top: -10px;
+	text-align: center;
+	padding: 2px;
+	margin: 10px;
+	width: 100px;
 	font-size: 20px;
 }
 
 
 
-div#container {
-  background-color: #00FFFF;
-  position: relative;
-  top: 60px;
+@media(min-width: 992px)
+{
+.col-md-4
+{
+float: left;
+width: 33.33%;
 }
-p {
-  width: 50px;
+}
+
+
+@media((min-width: 768px) and (max-width: 991px))
+{
+.col-sm-6
+{
+	float: left;
+	width: 50%;
+}
+.col-sm-12
+{
+	float: left;
+	width: 100%;
+}
+}
+
+
+@media(max-width: 767px)
+{
+.col-xs-12
+{
+	float:left;
+	width: 100%;
+}
+}
+
