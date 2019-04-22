@@ -1,0 +1,144 @@
+*{
+	box-sizing: border-box;
+	font-family: calibri;
+}
+/**Header **/
+#header-nav
+{
+	background-color: #C0BFBF;
+	border-radius: 0;
+	border: 0;
+}
+
+h1{
+	color: black;
+	font-weight: bold;
+}
+
+.navbar-brand h1 /* Name */
+{
+	
+	color: black;
+	font-size: 32px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+
+	line-height: .75;
+
+}
+
+.navbar-brand a:hover , .navbar-brand a:focus 
+{
+	text-decoration: none;
+}
+
+a
+{
+	color: black;
+
+}
+a:hover
+{
+	text-decoration: none;
+	color: black;
+}
+
+a.back
+{
+	color: blue;
+}
+
+#nav-list
+{
+	margin-top: 10px;
+
+}
+
+#nav-list a
+{
+	color: black;
+	text-align: center;
+	background-color: white;
+	border: 1px solid black;
+
+
+}
+
+#nav-list a:hover
+{
+	background: #C0BFBF;
+	opacity: 1%;
+	
+}
+
+#nav-list a span
+{
+	font-size:1.8em; 
+}
+
+.navbar-header button.navbar-toggle , .navbar-header .icon-bar
+{
+	border:1px solid white;
+}
+
+.navbar-header button.navbar-toggle
+{
+	clear: both;
+	margin-top: -30px;
+}
+
+/*END HEADER*/
+
+.section
+{
+	position: relative;
+}
+#chicken , #beef , #sushi
+{
+	color: black;
+	background-color:#C0BFBF;
+	position: absolute;
+	top: -19px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	font-weight: bold;
+	width:100px;
+	font-size: 24px;
+	padding-top: 5px;
+
+}
+
+
+
+
+p
+{
+background-color: #C0BFBF;
+border: 1px solid black;
+padding:8px;
+margin: 10px;
+padding-top: 8px;
+
+font-size: 16px;
+
+}
+
+
+
+
+
+
+{
+	.col-xs-12{
+		float:left;
+		width:100%;
+		
+
+}
+
+
+
